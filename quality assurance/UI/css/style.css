@@ -1,0 +1,478 @@
+body {
+    height: 100%;
+    font-family: Arial Helvetica Sans-Serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+
+.main-container {
+    min-height: 100%;
+    position: relative;
+}
+
+.body {
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#showcase .display-text {
+    width: 55%;
+    margin: auto;
+    float: left;
+    padding: 10px;
+    justify-content: inherit;
+}
+
+#showcase .display-form {
+    width: 40%;
+    margin: auto;
+    float: left;
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    min-height: 60px;
+    background-color: #337ab7;
+}
+
+header a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+header li {
+    color: #ffffff;
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+header #branding {
+    padding-top: 5px;
+    font-size: 32px;
+    float: left;
+    margin: 0;
+    color: #ffffff;
+}
+
+header nav {
+    float: right;
+    padding-top: 20px;
+}
+
+#showcase {
+    width: 100%;
+    font-size: 18px;
+    padding-top: 10px;
+    color: #ffffff;
+    min-height: 300px;
+    background-color: #030a25;
+}
+
+#showcase h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#showcase form {
+    padding-top: 10px;
+}
+
+.button-blue {
+    width: inherit;
+    color: #fff;
+    background-color: #337ab7;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.button-dashboard {
+    width: auto;
+    color: #fff;
+    background-color: #337ab7;
+    display: block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+form {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+
+.login-form {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #337ab7;
+}
+
+.sign-up-info {
+    width: 30%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+form select {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#all-questions {
+    margin: auto;
+    width: 80%;
+    font-size: 16px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+#all-questions .question-title {
+    color: #000000;
+    margin: 0;
+}
+
+.user-name span {
+    background-color: white;
+}
+
+#all-questions .question-tags span {
+    padding: 5px;
+    width: inherit;
+    background-color: #337ab7;
+    color: white;
+    border-radius: 3px;
+}
+
+.ask-question {
+    width: 80%;
+    padding-left: 20px;
+    margin: auto;
+}
+
+.view-questions-header {
+    margin: auto;
+}
+
+.post-question {
+    padding-top: 10px;
+    float: right;
+}
+
+.post-question a {
+    text-decoration: none;
+}
+
+.view-questions {
+    width: 60%;
+    float: left;
+}
+
+.view-questions h2 {
+    font-size: 36px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.display-text1 {
+    background-color: #337ab7;
+    padding: 20px;
+}
+
+.recently-asked-question {
+    padding: 10px;
+    width: 70%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: right;
+}
+
+.recently-asked-question .view-questions {
+    width: 100%;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #337ab7;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.profile-col {
+    width: 20%;
+    float: left;
+    background-color: #ffffff;
+    align-content: center;
+}
+
+.user-history {
+    width: 15%;
+    float: left;
+    background-color: #ffffff;
+}
+
+.profile-col img {
+    border: 1px solid #777;
+    height: auto;
+    margin-left: 45px;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.shadow {
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+.user-name {
+    float: right;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    background-color: #337ab7;
+    position: absolute;
+    bottom: 0;
+}
+
+.view-questions span {
+    padding: 5px;
+    background-color: #00bfff;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 1200px) {
+    .user-history {
+        width: inherit;
+        margin-bottom: 3%;
+        float: none;
+    }
+    .profile-col {
+        width: 50%;
+        margin: auto;
+        float: none;
+        padding: 0;
+        margin-bottom: 3%;
+    }
+    .recently-asked-question {
+        width: inherit;
+        margin-bottom: 3%;
+        float: none;
+    }
+    .profile-col img {
+        border: 1px solid #777;
+        height: auto;
+        width: 35%;
+        border-radius: 5px;
+        margin-left: 33%;
+    }
+    .profile-col .dashboard-content {
+        align-items: center;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .login-form {
+        float: inherit;
+        width: 50%;
+        margin: auto;
+    }
+    .sign-up-info {
+        width: 50%;
+        float: inherit;
+        margin: auto;
+    }
+    #showcase .display-text {
+        width: 80%;
+        float: inherit;
+        margin: auto;
+    }
+    #showcase .display-form {
+        width: 60%;
+        float: inherit;
+        margin: auto;
+    }
+    .post-question {
+        width: 60%;
+        float: inherit;
+        margin: auto;
+    }
+    .view-questions {
+        float: inherit;
+        width: 80%;
+        margin: auto;
+    }
+    .user-history {
+        width: inherit;
+        margin-bottom: 3%;
+        float: none;
+    }
+    .profile-col {
+        width: 80%;
+        margin: auto;
+        float: none;
+        padding: 0;
+        margin-bottom: 3%;
+    }
+    .recently-asked-question {
+        width: inherit;
+        margin-bottom: 3%;
+        float: none;
+    }
+    .profile-col img {
+        border: 1px solid #777;
+        height: auto;
+        width: 35%;
+        border-radius: 5px;
+        margin-left: 33%;
+    }
+    .profile-col .dashboard-content {
+        align-items: center;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .login-form {
+        width: inherit;
+    }
+    .sign-up-info {
+        width: inherit;
+    }
+    #showcase .display-text {
+        width: inherit;
+    }
+    #showcase .display-form {
+        width: inherit;
+    }
+    .post-question {
+        width: inherit;
+    }
+    .view-questions {
+        width: inherit;
+    }
+    .user-history {
+        width: inherit;
+        margin-bottom: 3%;
+    }
+    .profile-col {
+        width: 80%;
+        margin: auto;
+        float: none;
+        padding: 0;
+        margin-bottom: 3%;
+    }
+    .recently-asked-question {
+        width: inherit;
+        margin-bottom: 3%;
+    }
+    .profile-col img {
+        border: 1px solid #777;
+        height: auto;
+        width: 50%;
+        border-radius: 5px;
+        margin-left: 25%;
+    }
+    .profile-col .dashboard-content {
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+}
