@@ -84,5 +84,5 @@ POST | `/api/v1/questions/answers/vote/{answer_id}` | Upvote/DownVote an answer
 POST | `/api/v1/questions/answers/comment/{answer_id}` | Comment on an answer
 
 ## Author
-Denis Ogwang.
+Wasswa Richard.
 
